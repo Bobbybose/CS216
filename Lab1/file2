@@ -1,0 +1,38 @@
+    1  man
+    2  is
+    3  Is
+    4  ls
+    5  ls -1
+    6  cd dir
+    7  cd ..
+    8  cd ~
+    9  pwd
+   10  whoami
+   11  pwd
+   12  exit
+   13  pwd
+   14  mkdir CS216
+   15  cd CS216
+   16  mkdir Lab1
+   17  cd Lab1
+   18  ls
+   19  pwd
+   20  pwd > file1
+   21  cat file1
+   22  ls -l
+   23  ls -l >> file1
+   24  LS
+   25  cowsay "Hello, Orion Fisher. I am Bobby Bose." >> file1
+   26  cat file1
+   27  echo shell
+   28  echo $shell
+   29  echo $SHELL
+   30  history > file2
+                                                                             
+ mmmmmm           "                          mmm   mmmm   mmmm  mmm      mmm 
+ #      m mm    mmm    mmm   m   m         m"   " #"   " "   "#   #    m"   "
+ #mmmmm #"  #     #   #" "#  "m m"         #      "#mmm      m"   #    #m""#m
+ #      #   #     #   #   #   #m#          #          "#   m"     #    #    #
+ #mmmmm #   #     #   "#m#"   "#            "mmm" "mmm#" m#mmmm mm#mm   #mm#"
+                  #           m"                                             
+                ""           ""                                              

@@ -1,0 +1,23 @@
+Harry Potter and the Chamber of Secrets (2002)
+Harry Potter and the Goblet of Fire (2005)
+Harry Potter and the Order of the Phoenix (2007)
+Harry Potter and the Prisoner of Azkaban (2004)
+American Yearbook (2004)
+Book chon bang hyang (2011)
+Book of Dragons (2011) (V)
+Book of Love (2004)
+Comic Book: The Movie (2004) (V)
+Little Black Book (2004)
+Secret Window: From Book to Film (2004) (V)
+The Fantastic Flying Books of Mr. Morris Lessmore (2011)
+The Notebook (2004)
+  108  grep -i -E "book.*2004|book.*2011" imdb.txt
+  109  grep -i -E "book.*2004|book.*2011" imdb.txt >> Lab2output.txt
+  110  cat Lab2output.txt
+  111  rm Lab2output.txt
+  112  grep "Harry Potter.*200[2-7]" imdb.txt > Lab2output.txt
+  113  rm Lab2output.txt
+  114  grep "Harry Potter.*200[2-7]" imdb2.txt > Lab2output.txt
+  115  grep -i -E "book.*2004|book.*2011" imdb2.txt >> Lab2output.txt
+  116  cat Lab2output.txt
+  117  history | tail -10 >> Lab2output.txt

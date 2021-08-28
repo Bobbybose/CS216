@@ -1,0 +1,6 @@
+0x0000555555559945 in analyzeCoActors (imdb=...) at Lab9.cpp:141
+0x0000555555559517 in main (argc=2, argv=0x7fffffffe4c8) at Lab9.cpp:107
+
+1. It displays more than once because the program uses cin and not getline to retrieve the user's input. Since cin is being used, "two and one" are counted as three separate inputs, so the invalid message is ran twice.
+2. input_to_check is first "two," then it is "and," and then it is "one."
+3. The solution is to use getline instead of cin. This will count the user's entire input as one input, and not three. 

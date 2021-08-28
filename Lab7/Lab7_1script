@@ -1,0 +1,12 @@
+#!/bin/bash
+#demostrate the difference among double quotes, single quotes and back quotes
+clear    
+hname=`hostname`
+echo 'Welcome on $hname!'
+echo 'Is this what I want to display?'
+echo
+echo "Welcome on $hname!"
+echo -n "It is currently: ";date     
+echo -n "I am logged on as: ";whoami       
+echo "I am currently in the directory: `pwd`"    
+

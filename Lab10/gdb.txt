@@ -1,0 +1,562 @@
+Breakpoint 1 at 0x5113: file Lab10.cpp, line 28.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000005113 in main(int, char**) at Lab10.cpp:28
+Garbage ', 94, 97, 34, 37, 38, 112, 48, 61, 118' at end of command
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000005113 in main(int, char**) at Lab10.cpp:28
+Starting program: /home/bbo267/CS216/Lab10/Lab10 actor_movies.txt
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:28
+28	{
+$1 = 2
+No symbol "arguments" in current context.
+$2 = (const int *) 0x5555555877f0 <ARGUMENTS>
+$3 = 2
+$4 = (int *) 0x7fffffffdeac
+$5 = (char **) 0x7fffffffe4b8
+$6 = (char ***) 0x7fffffffdea0
+$7 = 0x7fffffffe70d "/home/bbo267/CS216/Lab10/Lab10"
+$8 = (char **) 0x7fffffffe4b8
+$9 = 0x7fffffffe72c "actor_movies.txt"
+$10 = (char **) 0x7fffffffe4c0
+$11 = (char **) 0x7fffffffe4b8
+30	    if (argc != ARGUMENTS)
+Continuing.
+[Inferior 1 (process 12473) exited normally]
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555559113 in main(int, char**) at Lab10.cpp:28
+	breakpoint already hit 1 time
+Breakpoint 2 at 0x555555559288: file Lab10.cpp, line 54.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555559113 in main(int, char**) at Lab10.cpp:28
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000555555559288 in main(int, char**) at Lab10.cpp:54
+Starting program: /home/bbo267/CS216/Lab10/Lab10 actor_movies.txt
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:28
+28	{
+30	    if (argc != ARGUMENTS)
+37	    ifstream in_file;
+38	    in_file.open(argv[1]);
+40	    if (!in_file.good())
+52	    IMDB cs216_imdb;
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+No symbol "cs216_imbd" in current context.
+$12 = {movies_db = std::map with 0 elements, actors_db = std::map with 0 elements}
+$13 = (IMDB *) 0x7fffffffdf30
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+56	        string line;
+57	        getline(in_file, line);
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Already logging to gdb.txt.
+Garbage ', 97, 34, 37, 38, 112, 48, 61, 118' at end of command
+No breakpoints or watchpoints.
+Breakpoint 1 at 0x553c: file Lab10.cpp, line 94.
+Garbage ', 34, 37, 38, 112, 48, 61, 118' at end of command
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000000000000553c in main(int, char**) at Lab10.cpp:94
+Breakpoint 2 at 0x558c: file Lab10.cpp, line 97.
+Breakpoint 3 at 0x51c2: file Lab10.cpp, line 34.
+Breakpoint 4 at 0x51cc: file Lab10.cpp, line 37.
+Breakpoint 5 at 0x51db: file Lab10.cpp, line 38.
+Breakpoint 6 at 0x56ca: file Lab10.cpp, line 112.
+Breakpoint 7 at 0x5279: file Lab10.cpp, line 48.
+Breakpoint 8 at 0x532a: file Lab10.cpp, line 61.
+Breakpoint 9 at 0x57d2: file Lab10.cpp, line 118.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000000000000553c in main(int, char**) at Lab10.cpp:94
+2       breakpoint     keep y   0x000000000000558c in main(int, char**) at Lab10.cpp:97
+3       breakpoint     keep y   0x00000000000051c2 in main(int, char**) at Lab10.cpp:34
+4       breakpoint     keep y   0x00000000000051cc in main(int, char**) at Lab10.cpp:37
+5       breakpoint     keep y   0x00000000000051db in main(int, char**) at Lab10.cpp:38
+6       breakpoint     keep y   0x00000000000056ca in main(int, char**) at Lab10.cpp:112
+7       breakpoint     keep y   0x0000000000005279 in main(int, char**) at Lab10.cpp:48
+8       breakpoint     keep y   0x000000000000532a in main(int, char**) at Lab10.cpp:61
+9       breakpoint     keep y   0x00000000000057d2 in main(int, char**) at Lab10.cpp:118
+Starting program: /home/bbo267/CS216/Lab10/Lab10 actor_movies.txt
+
+Breakpoint 4, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:37
+37	    ifstream in_file;
+
+Breakpoint 5, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:38
+38	    in_file.open(argv[1]);
+40	    if (!in_file.good())
+
+Breakpoint 7, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:52
+52	    IMDB cs216_imdb;
+54	    while (!in_file.eof())
+56	        string line;
+57	        getline(in_file, line);
+58	        string name, movie;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+$1 = "52 Pick-Up (1986)"
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+std::set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert (
+    this=0x7fffffffded0, __x="Cheap Detective, The (1978)")
+    at /usr/include/c++/7/bits/stl_set.h:499
+499	      insert(const value_type& __x)
+501		std::pair<typename _Rep_type::iterator, bool> __p =
+503		return std::pair<iterator, bool>(__p.first, __p.second);
+504	      }
+main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:72
+72	            iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+std::set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert (
+    this=0x7fffffffded0, __x="Malcolm X (1992)") at /usr/include/c++/7/bits/stl_set.h:499
+499	      insert(const value_type& __x)
+501		std::pair<typename _Rep_type::iterator, bool> __p =
+Undefined command: "cn".  Try "help".
+503		return std::pair<iterator, bool>(__p.first, __p.second);
+Undefined command: "cn".  Try "help".
+Undefined command: "an".  Try "help".
+Undefined command: "sn".  Try "help".
+Undefined command: "cn".  Try "help".
+Undefined command: "sn".  Try "help".
+Undefined command: "cn".  Try "help".
+Undefined command: "sn".  Try "help".
+Undefined command: "cn".  Try "help".
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Undefined command: "sn".  Try "help".
+Garbage ',54' at end of command
+Garbage ', 54' at end of command
+No breakpoints or watchpoints.
+Breakpoint 1 at 0x5113: file Lab10.cpp, line 28.
+Breakpoint 2 at 0x5288: file Lab10.cpp, line 54.
+Breakpoint 3 at 0x553c: file Lab10.cpp, line 94.
+Breakpoint 4 at 0x558c: file Lab10.cpp, line 97.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000005113 in main(int, char**) at Lab10.cpp:28
+2       breakpoint     keep y   0x0000000000005288 in main(int, char**) at Lab10.cpp:54
+3       breakpoint     keep y   0x000000000000553c in main(int, char**) at Lab10.cpp:94
+4       breakpoint     keep y   0x000000000000558c in main(int, char**) at Lab10.cpp:97
+Breakpoint 5 at 0x51c2: file Lab10.cpp, line 34.
+Breakpoint 6 at 0x51cc: file Lab10.cpp, line 37.
+Breakpoint 7 at 0x51db: file Lab10.cpp, line 38.
+Breakpoint 8 at 0x56ca: file Lab10.cpp, line 112.
+Breakpoint 9 at 0x5279: file Lab10.cpp, line 48.
+Breakpoint 10 at 0x532a: file Lab10.cpp, line 61.
+Breakpoint 11 at 0x57d2: file Lab10.cpp, line 118.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000005113 in main(int, char**) at Lab10.cpp:28
+2       breakpoint     keep y   0x0000000000005288 in main(int, char**) at Lab10.cpp:54
+3       breakpoint     keep y   0x000000000000553c in main(int, char**) at Lab10.cpp:94
+4       breakpoint     keep y   0x000000000000558c in main(int, char**) at Lab10.cpp:97
+5       breakpoint     keep y   0x00000000000051c2 in main(int, char**) at Lab10.cpp:34
+6       breakpoint     keep y   0x00000000000051cc in main(int, char**) at Lab10.cpp:37
+7       breakpoint     keep y   0x00000000000051db in main(int, char**) at Lab10.cpp:38
+8       breakpoint     keep y   0x00000000000056ca in main(int, char**) at Lab10.cpp:112
+9       breakpoint     keep y   0x0000000000005279 in main(int, char**) at Lab10.cpp:48
+10      breakpoint     keep y   0x000000000000532a in main(int, char**) at Lab10.cpp:61
+11      breakpoint     keep y   0x00000000000057d2 in main(int, char**) at Lab10.cpp:118
+Starting program: /home/bbo267/CS216/Lab10/Lab10 actor_movies.txt
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:28
+28	{
+$1 = (char **) 0x7fffffffe4b8
+$2 = (char ***) 0x7fffffffdea0
+$3 = 0x7fffffffe70d "/home/bbo267/CS216/Lab10/Lab10"
+$4 = (char **) 0x7fffffffe4b8
+Continuing.
+
+Breakpoint 6, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:37
+37	    ifstream in_file;
+$5 = '\000' <repeats 113 times>
+$6 = 0 '\000'
+Continuing.
+
+Breakpoint 7, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:38
+38	    in_file.open(argv[1]);
+Continuing.
+
+Breakpoint 9, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:52
+52	    IMDB cs216_imdb;
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+56	        string line;
+57	        getline(in_file, line);
+58	        string name, movie;
+59	        istringstream iss(line);
+60	        getline(iss, name,':');
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+Garbage ', 54, 94, 97, 34, 37, 38, 112, 48, 61, 118' at end of command
+Breakpoint 1 at 0x5113: file Lab10.cpp, line 28.
+Breakpoint 2 at 0x5288: file Lab10.cpp, line 54.
+Breakpoint 3 at 0x553c: file Lab10.cpp, line 94.
+Breakpoint 4 at 0x558c: file Lab10.cpp, line 97.
+Breakpoint 5 at 0x51c2: file Lab10.cpp, line 34.
+Breakpoint 6 at 0x51cc: file Lab10.cpp, line 37.
+Breakpoint 7 at 0x51db: file Lab10.cpp, line 38.
+Breakpoint 8 at 0x56ca: file Lab10.cpp, line 112.
+Breakpoint 9 at 0x5279: file Lab10.cpp, line 48.
+Breakpoint 10 at 0x532a: file Lab10.cpp, line 61.
+Breakpoint 11 at 0x57d2: file Lab10.cpp, line 118.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000005113 in main(int, char**) at Lab10.cpp:28
+2       breakpoint     keep y   0x0000000000005288 in main(int, char**) at Lab10.cpp:54
+3       breakpoint     keep y   0x000000000000553c in main(int, char**) at Lab10.cpp:94
+4       breakpoint     keep y   0x000000000000558c in main(int, char**) at Lab10.cpp:97
+5       breakpoint     keep y   0x00000000000051c2 in main(int, char**) at Lab10.cpp:34
+6       breakpoint     keep y   0x00000000000051cc in main(int, char**) at Lab10.cpp:37
+7       breakpoint     keep y   0x00000000000051db in main(int, char**) at Lab10.cpp:38
+8       breakpoint     keep y   0x00000000000056ca in main(int, char**) at Lab10.cpp:112
+9       breakpoint     keep y   0x0000000000005279 in main(int, char**) at Lab10.cpp:48
+10      breakpoint     keep y   0x000000000000532a in main(int, char**) at Lab10.cpp:61
+11      breakpoint     keep y   0x00000000000057d2 in main(int, char**) at Lab10.cpp:118
+Starting program: /home/bbo267/CS216/Lab10/Lab10 actor_movies.txt
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:28
+28	{
+$1 = 2
+$2 = (const int *) 0x5555555877f0 <ARGUMENTS>
+$3 = 2
+$4 = (int *) 0x7fffffffdeac
+$5 = (char **) 0x7fffffffe4b8
+$6 = (char ***) 0x7fffffffdea0
+$7 = 0x7fffffffe70d "/home/bbo267/CS216/Lab10/Lab10"
+$8 = (char **) 0x7fffffffe4b8
+$9 = 0x7fffffffe72c "actor_movies.txt"
+$10 = (char **) 0x7fffffffe4c0
+30	    if (argc != ARGUMENTS)
+
+Breakpoint 6, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:37
+37	    ifstream in_file;
+
+Breakpoint 7, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:38
+38	    in_file.open(argv[1]);
+40	    if (!in_file.good())
+
+Breakpoint 9, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:52
+52	    IMDB cs216_imdb;
+$11 = {
+  movies_db = std::map with 140737488347792 elements<error reading variable: Cannot access memory at address 0x1e>, 
+  actors_db = std::map with 140737351850536 elements<error reading variable: Cannot access memory at address 0x8b4820247c8b4838>}
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+$12 = {movies_db = std::map with 0 elements, actors_db = std::map with 0 elements}
+$13 = (IMDB *) 0x7fffffffdf30
+56	        string line;
+57	        getline(in_file, line);
+58	        string name, movie;
+59	        istringstream iss(line);
+60	        getline(iss, name,':');
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 10, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:63
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+72	            iss>>ws;
+68	        while (getline(iss, movie, ';'))
+70	            movies.insert(movie);
+Breakpoint 1 at 0x5113: file Lab10.cpp, line 28.
+Breakpoint 2 at 0x5288: file Lab10.cpp, line 54.
+Breakpoint 3 at 0x553c: file Lab10.cpp, line 94.
+Breakpoint 4 at 0x558c: file Lab10.cpp, line 97.
+Breakpoint 5 at 0x51c2: file Lab10.cpp, line 34.
+Breakpoint 6 at 0x51cc: file Lab10.cpp, line 37.
+Breakpoint 7 at 0x51db: file Lab10.cpp, line 38.
+Breakpoint 8 at 0x56ca: file Lab10.cpp, line 112.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000005113 in main(int, char**) at Lab10.cpp:28
+2       breakpoint     keep y   0x0000000000005288 in main(int, char**) at Lab10.cpp:54
+3       breakpoint     keep y   0x000000000000553c in main(int, char**) at Lab10.cpp:94
+4       breakpoint     keep y   0x000000000000558c in main(int, char**) at Lab10.cpp:97
+5       breakpoint     keep y   0x00000000000051c2 in main(int, char**) at Lab10.cpp:34
+6       breakpoint     keep y   0x00000000000051cc in main(int, char**) at Lab10.cpp:37
+7       breakpoint     keep y   0x00000000000051db in main(int, char**) at Lab10.cpp:38
+8       breakpoint     keep y   0x00000000000056ca in main(int, char**) at Lab10.cpp:112
+Starting program: /home/bbo267/CS216/Lab10/Lab10 actor_movies.txt
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:28
+28	{
+30	    if (argc != ARGUMENTS)
+Continuing.
+
+Breakpoint 6, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:37
+37	    ifstream in_file;
+Continuing.
+
+Breakpoint 7, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:38
+38	    in_file.open(argv[1]);
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+56	        string line;
+57	        getline(in_file, line);
+58	        string name, movie;
+59	        istringstream iss(line);
+60	        getline(iss, name,':');
+63	        iss>>ws;
+66	        set<string> movies;
+68	        while (getline(iss, movie, ';'))
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Continuing.
+
+Breakpoint 2, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:54
+54	    while (!in_file.eof())
+Deleted breakpoint 1 
+Deleted breakpoint 2 
+Continuing.
+
+Breakpoint 3, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:94
+94	    magicString validName(inputname);
+$1 = "Jack Black"
+$2 = (std::__cxx11::string *) 0x7fffffffdfd0
+Continuing.
+
+Breakpoint 4, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:97
+97	    while (validName.toLower() != "quit")
+No symbol "validname" in current context.
+$3 = {str = "Jack Black"}
+$4 = (magicString *) 0x7fffffffdff0
+magicString::toLower[abi:cxx11]() const (this=0x7fffffffdff0) at magicString.cpp:35
+35	{
+$5 = "Jack Black"
+$6 = (std::__cxx11::string *) 0x7fffffffdff0
+Continuing.
+
+Breakpoint 8, main (argc=2, argv=0x7fffffffe4b8) at Lab10.cpp:112
+112	            cout << endl << "You type: " << inputname << endl;
+$7 = std::set with 6 elements = {[0] = "Cable Guy, The (1996)", [1] = "High Fidelity (2000)", 
+  [2] = "NeverEnding Story III, The (1994)", [3] = "Saving Silverman (2001)", 
+  [4] = "School of Rock (2003)", [5] = "Shallow Hal (2001)"}
+$8 = (
+    std::set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > *) 0x7fffffffded0
